@@ -27,4 +27,8 @@ public class HomePageStepDefinition extends CommonAction {
 		clickButton(xpath);
 	}
 
+	@And ("^I want to close the application$")
+	public void want_close_browser(){
+		closeBrowser();
+	}
 }
